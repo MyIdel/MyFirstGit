@@ -1,1 +1,114 @@
-<mxfile host="app.diagrams.net" modified="2020-10-25T11:48:52.258Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" version="13.8.1" etag="xCW-WYy3-USjwWWBKLjl" type="github"><diagram id="rJquOauoAj6uCNtRZN4i">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-10-25T14:13:41.085Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="FZeIPl42FMh4J5yYqUIC" version="13.8.1" type="github">
+  <diagram id="rJquOauoAj6uCNtRZN4i" name="Page-1">
+    <mxGraphModel dx="782" dy="437" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2eik_e6NQfcXFaimBB26-45" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="80" width="720" height="740" as="geometry" />
+        </mxCell>
+        <mxCell id="2eik_e6NQfcXFaimBB26-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2eik_e6NQfcXFaimBB26-1" target="2eik_e6NQfcXFaimBB26-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2eik_e6NQfcXFaimBB26-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2eik_e6NQfcXFaimBB26-1" target="2eik_e6NQfcXFaimBB26-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2eik_e6NQfcXFaimBB26-1" value="构建天基包" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="80" y="110" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2eik_e6NQfcXFaimBB26-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2eik_e6NQfcXFaimBB26-7" target="2eik_e6NQfcXFaimBB26-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2eik_e6NQfcXFaimBB26-7" value="tianji-build&lt;br&gt;获取semawaf、slb、jdk、ossutil、openapi" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="70" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2eik_e6NQfcXFaimBB26-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2eik_e6NQfcXFaimBB26-9" target="2eik_e6NQfcXFaimBB26-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2eik_e6NQfcXFaimBB26-9" value="下载&lt;br&gt;dipper-service.jar" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="70" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2eik_e6NQfcXFaimBB26-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2eik_e6NQfcXFaimBB26-11" target="2eik_e6NQfcXFaimBB26-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2eik_e6NQfcXFaimBB26-11" value="下载CICD" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="70" y="360" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2eik_e6NQfcXFaimBB26-13" value="CICD 根据DeployPackage.xml文件打包运行程序和脚本" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="70" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2eik_e6NQfcXFaimBB26-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2eik_e6NQfcXFaimBB26-16" target="2eik_e6NQfcXFaimBB26-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2eik_e6NQfcXFaimBB26-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2eik_e6NQfcXFaimBB26-16" target="2eik_e6NQfcXFaimBB26-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2eik_e6NQfcXFaimBB26-16" value="安装&lt;br&gt;setup.sh" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="280" y="110" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2eik_e6NQfcXFaimBB26-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2eik_e6NQfcXFaimBB26-17" target="2eik_e6NQfcXFaimBB26-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2eik_e6NQfcXFaimBB26-17" value="创建workdir、data、shell、logs、envfile、upgrade等目录" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="280" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2eik_e6NQfcXFaimBB26-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2eik_e6NQfcXFaimBB26-23" target="2eik_e6NQfcXFaimBB26-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2eik_e6NQfcXFaimBB26-23" value="sh install_dipper.sh&lt;br&gt;安装dipper服务" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="280" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2eik_e6NQfcXFaimBB26-25" value="sh start_dipper.sh&lt;br&gt;启动dipper服务" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="280" y="360" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2eik_e6NQfcXFaimBB26-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2eik_e6NQfcXFaimBB26-27" target="2eik_e6NQfcXFaimBB26-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2eik_e6NQfcXFaimBB26-27" value="启动&lt;br&gt;strat" style="whiteSpace=wrap;html=1;rounded=0;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="480" y="110" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2eik_e6NQfcXFaimBB26-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2eik_e6NQfcXFaimBB26-29" target="2eik_e6NQfcXFaimBB26-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2eik_e6NQfcXFaimBB26-29" value="create_env_file创建semawaf.env文件" style="whiteSpace=wrap;html=1;rounded=0;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="480" y="180" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2eik_e6NQfcXFaimBB26-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2eik_e6NQfcXFaimBB26-31" target="2eik_e6NQfcXFaimBB26-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2eik_e6NQfcXFaimBB26-31" value="sh&amp;nbsp;ALISEAMWAF_V1.0.0.run&lt;br&gt;运行semawaf程序" style="whiteSpace=wrap;html=1;rounded=0;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="445" y="265" width="190" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="2eik_e6NQfcXFaimBB26-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2eik_e6NQfcXFaimBB26-33" target="2eik_e6NQfcXFaimBB26-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2eik_e6NQfcXFaimBB26-33" value="rpm -ivh $SLB_NAME&lt;br&gt;安装slb" style="whiteSpace=wrap;html=1;rounded=0;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="460" y="355" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2eik_e6NQfcXFaimBB26-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2eik_e6NQfcXFaimBB26-35" target="2eik_e6NQfcXFaimBB26-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2eik_e6NQfcXFaimBB26-35" value="deploy_openApi&lt;br&gt;安装openapi" style="whiteSpace=wrap;html=1;rounded=0;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="480" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2eik_e6NQfcXFaimBB26-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2eik_e6NQfcXFaimBB26-37" target="2eik_e6NQfcXFaimBB26-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2eik_e6NQfcXFaimBB26-37" value="deploy_front&lt;br&gt;安装front" style="whiteSpace=wrap;html=1;rounded=0;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="480" y="550" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2eik_e6NQfcXFaimBB26-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2eik_e6NQfcXFaimBB26-39" target="2eik_e6NQfcXFaimBB26-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2eik_e6NQfcXFaimBB26-39" value="antx.properties&lt;br&gt;编写环境文件，升级准备" style="whiteSpace=wrap;html=1;rounded=0;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="480" y="630" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2eik_e6NQfcXFaimBB26-43" value="启动定时任务&lt;br&gt;check_disk.sh&lt;br&gt;clean_check_disk.sh&lt;br&gt;load_module.sh&lt;br&gt;resources_upload.sh" style="whiteSpace=wrap;html=1;rounded=0;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="480" y="720" width="120" height="90" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
