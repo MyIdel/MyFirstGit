@@ -15,6 +15,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 <!-- 引入自定义css文件 style.css -->
 <link rel="stylesheet" href="css/style.css" type="text/css" />
 <script type="text/javascript">
+
 	function changeImage(obj){
 		obj.src="checkimage?time="+new Date().getTime();
 	}
